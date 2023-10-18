@@ -19,13 +19,17 @@ int main()
     {
         printf("Thursday");
     }
-    else if(day == '5')
+    else if(day =='5')
     {
         printf("Friday");
     }
     else if(day == '6')
     {
         printf("Saturday");
+    }
+    else if(day == '7')
+    {
+        printf("Sunday");
     }
     else
     {
