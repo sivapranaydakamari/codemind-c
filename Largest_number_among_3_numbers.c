@@ -1,18 +1,18 @@
 #include<stdio.h>
 int main()
 {
-    int Num1,Num2,Num3;
-    scanf("%d%d%d",&Num1,&Num2,&Num3);
-    if(Num1>Num2 && Num1>Num3)
+    int x,y,z;
+    scanf("%d%d%d",&x,&y,&z);
+    if (x>y && x>z)
     {
-        printf("%d",Num1);
+        printf("%d",x);
     }
-    else if(Num2>Num1 && Num2>Num3)
+    else if (y>x && y>z)
     {
-        printf("%d",Num2);
+        printf("%d",y);
     }
     else
     {
-        printf("%d",Num3);
+      printf("%d",z);
     }
 }
