@@ -3,7 +3,7 @@ int main()
 {
     int x;
     scanf("%d",&x);
-    if(x>20)
+    if (x>20)
     {
         printf("HOT");
     }
