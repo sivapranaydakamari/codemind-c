@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    float x,y,lp;
-    scanf("%f%f",&x,&y);
-    lp=(x-y)/x*100.0;
-    printf("%.2f",lp);
+    float cp,sp,loss,losspercentage;
+    scanf("%f%f",&cp,&sp);
+    loss=cp-sp;
+    losspercentage=(loss/cp)*100;
+    printf("%.2f",losspercentage);
 }
