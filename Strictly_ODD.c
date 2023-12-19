@@ -8,16 +8,16 @@ int main()
     {
         scanf("%d",&a[i]);
     }
-    int se,flag=1;
+    int se,flag=0;
     scanf("%d",&se);
     for(int i=0;i<n;i++)
     {
         if(i%2==0&&a[i]%2!=0)
         {
-            flag=0;
+            flag=1;
         }
     }
-    if(flag==1)
+    if(flag==0)
     printf("True");
     else
     printf("False");
